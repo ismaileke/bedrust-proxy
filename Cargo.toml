@@ -1,0 +1,9 @@
+[package]
+name = "bedrust-proxy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bedrock-client = { git = "https://github.com/ismaileke/bedrock-client.git", branch = "master" }
+binary-utils = { git = "https://github.com/ismaileke/binary-utils.git", branch = "master"}
+tokio = "1.49.0"
